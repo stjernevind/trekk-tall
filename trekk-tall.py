@@ -14,7 +14,7 @@ def lesFraFil(filnavn):
 def tilfeldigNummer(navn):
     random.seed()
     while(True):
-        indeks = random.randint(2,17)
+        indeks = random.randint(5,21)
         # sjekker om tallet er tilordnet fra før
         if indeks not in fordeling:
             fordeling[indeks] = i
